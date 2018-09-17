@@ -6,6 +6,6 @@ button.addEventListener('click', renderText);
 
 //create loadText function
 function renderText(){
-  console.log('Hello world!');
+  //Create XHRBobject
 }
 
