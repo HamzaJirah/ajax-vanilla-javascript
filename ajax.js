@@ -9,4 +9,3 @@ function renderText(){
   console.log('Hello world!');
 }
 
-renderText();
