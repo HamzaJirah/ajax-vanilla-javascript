@@ -7,5 +7,6 @@ button.addEventListener('click', renderText);
 //create loadText function
 function renderText(){
   //Create XHRBobject
+  const xhr = XMLHttpRequest();
 }
 
