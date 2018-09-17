@@ -2,11 +2,11 @@
 const button = document.querySelector('#button');
 
 //addEventListener
-button.addEventListener('click', loadText);
+button.addEventListener('click', renderText);
 
 //create loadText function
-function loadText(){
+function renderText(){
   console.log('Hello world!');
 }
 
-loadText();
+renderText();
