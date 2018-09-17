@@ -8,3 +8,5 @@ button.addEventListener('click', loadText);
 function loadText(){
   console.log('Hello world!');
 }
+
+loadText();
