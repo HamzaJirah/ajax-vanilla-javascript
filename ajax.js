@@ -2,4 +2,4 @@
 const button = document.querySelector('#button');
 
 //addEventListener
-button.addEventListener('click', loadText)
+button.addEventListener('click', loadText);
