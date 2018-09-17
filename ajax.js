@@ -8,5 +8,6 @@ button.addEventListener('click', renderText);
 function renderText(){
   //Create XHRBobject
   const xhr = XMLHttpRequest();
+  //OPEN-type, url/file, aync
 }
 
