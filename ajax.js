@@ -16,5 +16,8 @@ function renderText(){
       console.log(this.responseText);
     }
   }
+
+  //send request
+  xhr.send();
 }
 
