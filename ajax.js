@@ -6,5 +6,5 @@ button.addEventListener('click', loadText);
 
 //create loadText function
 function loadText(){
-  
+  console.log('Hello world!');
 }
