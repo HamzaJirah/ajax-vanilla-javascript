@@ -13,7 +13,7 @@ function renderText(){
 
   xhr.onload = function (){
     if(this.status === 200){
-      
+      console.log(this.responseText);
     }
   }
 }
