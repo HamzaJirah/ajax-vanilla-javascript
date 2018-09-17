@@ -9,5 +9,6 @@ function renderText(){
   //Create XHRBobject
   const xhr = XMLHttpRequest();
   //OPEN-type, url/file, aync
+  xhr.open('GET', 'text.txt', true)
 }
 
