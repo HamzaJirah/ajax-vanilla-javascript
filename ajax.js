@@ -5,3 +5,6 @@ const button = document.querySelector('#button');
 button.addEventListener('click', loadText);
 
 //create loadText function
+function loadText(){
+  
+}
