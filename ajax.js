@@ -1,5 +1,5 @@
 //create event listener
-document.querySelector('#button').addEventListener('click', renderText);
+document.querySelector('#button').addEventListener('click', renderText)
 
 //create loadText function
 function renderText(){
