@@ -21,6 +21,7 @@ function renderText(){
 
   //USING OnReadyStateChange FUNCTION
   xhr.onreadystatechange = function(){
+    console.log("READYSTATE ", xhr.readyState);
     if(this.readyState == 4 && this.status == 200){
       // console.log(this.responseText);
     }
