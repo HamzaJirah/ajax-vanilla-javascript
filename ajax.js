@@ -1,13 +1,10 @@
 //create event listener
-const button = document.querySelector('#button');
-
-//addEventListener
-button.addEventListener('click', renderText);
+document.querySelector('#button').addEventListener('click', renderText);
 
 //create loadText function
 function renderText(){
   //Create XHRBobject
-  const xhr = XMLHttpRequest();
+  let xhr = XMLHttpRequest();
   //OPEN-type, url/file, aync
   xhr.open('GET', 'text.txt', true);
 
