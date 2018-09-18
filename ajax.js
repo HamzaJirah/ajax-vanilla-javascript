@@ -17,6 +17,10 @@ function renderText(){
     console.log("READYSTATE ", this.readyState);
   }
 
+  //ONERROR FUNCTION to handle error
+  xhr.onerror = function (){
+    console.log("Request not found....");
+  }
   //USING ONLOAD FUNCTION
   xhr.onload = function (){
     console.log("READYSTATE ", this.readyState);
