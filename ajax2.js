@@ -5,3 +5,5 @@ const button2 = document.querySelector('#button2');
 //addEventListener
 button1.addEventListener('click', renderUser)
 button2.addEventListener('click', renderUsers)
+
+//creeate user function
