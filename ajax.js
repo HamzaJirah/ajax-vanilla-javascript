@@ -20,3 +20,8 @@ function renderText(){
   xhr.send();
 }
 
+//HTTP Status
+//200: "OK"
+//403: "Forbidden"
+//404: "Not Found"
+
