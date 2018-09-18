@@ -4,7 +4,7 @@ document.querySelector('#button').addEventListener('click', renderText)
 //create loadText function
 function renderText(){
   //Create XHRBobject
-  let xhr = XMLHttpRequest();
+  lvar xhr = XMLHttpRequest();
   //OPEN-type, url/file, aync
   xhr.open('GET', 'text.txt', true);
 
