@@ -10,11 +10,11 @@ function renderText(){
   //OPEN-type, url/file, aync
   xhr.open('GET', 'text.txt', true);
 
-  xhr.onload = function (){
-    if(this.status === 200){
-      // console.log(this.responseText);
-    }
-  }
+  // xhr.onload = function (){
+  //   if(this.status === 200){
+  //     // console.log(this.responseText);
+  //   }
+  // }
 
   //Sends request
   xhr.send();
