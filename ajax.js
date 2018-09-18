@@ -17,6 +17,9 @@ function renderText(){
   //   }
   // }
 
+  //USING ONREADYSTAGEAREA FUNCTION
+  
+
   //Sends request
   xhr.send();
 }
