@@ -17,6 +17,12 @@ function renderUser(){
     if(this.status === 200){
       const user = JSON.parse(this.responseText);
       const output = '';
+
+      output += '<ul> '+
+        '<li>ID: '+ this.id + '</li>'+
+        '<li>Name: '+ this.email + '</li>'+
+        '<li>Email '+ this.email + '</li>'+
+        '</ul>';
     }
   }
   httpRequest.send();
