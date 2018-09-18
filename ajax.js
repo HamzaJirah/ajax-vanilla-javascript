@@ -10,17 +10,18 @@ function renderText(){
   //OPEN-type, url/file, aync
   xhr.open('GET', 'text.txt', true);
 
-  console.log("READYSTATE ", xhr.readyState);
+  // console.log("READYSTATE ", xhr.readyState);
 
   //onprogress-OPTIONAL-used for loaders
-  xhr.onprogress = function(){
-    console.log("READYSTATE ", this.readyState);
-  }
+  // xhr.onprogress = function(){
+  //   console.log("READYSTATE ", this.readyState);
+  // }
 
   //ONERROR FUNCTION to handle error
-  xhr.onerror = function (){
-    console.log("Request not found....");
-  }
+  // xhr.onerror = function (){
+  //   console.log("Request not found....");
+  // }
+
   //USING ONLOAD FUNCTION
   xhr.onload = function (){
     console.log("READYSTATE ", this.readyState);
