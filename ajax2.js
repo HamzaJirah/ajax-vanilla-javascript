@@ -13,5 +13,7 @@ function renderUser(){
   //open httpRequest
   httpRequest.open('GET', 'user.json', true);
   //use onload function
-  
+  httpRequest.onload = function(){
+    
+  }
 }
