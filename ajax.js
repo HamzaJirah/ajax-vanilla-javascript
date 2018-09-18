@@ -24,6 +24,9 @@ function renderText(){
     if(this.status === 200){
       text.innerHTML = this.responseText;
     }
+    else if (this.status == 404){
+      text.innerHTML = 'Page Not Found'
+    }
   }
 
   //ONERROR FUNCTION to handle error
