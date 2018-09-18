@@ -1,7 +1,7 @@
 //create event listener
 const button = document.querySelector('#button');
 
-.addEventListener('click', renderText)
+button.addEventListener('click', renderText);
 
 //create loadText function
 function renderText(){
