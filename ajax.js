@@ -14,6 +14,7 @@ function renderText(){
 
   //USING ONLOAD FUNCTION
   xhr.onload = function (){
+    console.log("READYSTATE ", this.readyState);
     if(this.status === 200){
       // console.log(this.responseText);
     }
