@@ -10,4 +10,6 @@ button2.addEventListener('click', renderUsers)
 function renderUser(){
   //create httpRequest Object
   const httpRequest = new XMLHttpRequest();
+  //
+  httpRequest.open('GET', 'user.json', true);
 }
