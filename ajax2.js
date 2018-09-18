@@ -9,5 +9,5 @@ button2.addEventListener('click', renderUsers)
 //creeate user function
 function renderUser(){
   //create httpRequest Object
-  
+  const httpRequest = new XMLHttpRequest();
 }
