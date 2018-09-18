@@ -14,6 +14,8 @@ function renderUser(){
   httpRequest.open('GET', 'user.json', true);
   //use onload function
   httpRequest.onload = function(){
+    if(this.status === 200){
     
+    }
   }
 }
