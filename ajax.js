@@ -10,6 +10,8 @@ function renderText(){
   //OPEN-type, url/file, aync
   xhr.open('GET', 'text.txt', true);
 
+  console.log("READYSTATE ", xhr.readyState);
+
   //USING ONLOAD FUNCTION
   // xhr.onload = function (){
   //   if(this.status === 200){
