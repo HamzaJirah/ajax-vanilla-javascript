@@ -25,6 +25,8 @@ function renderText(){
   xhr.send();
 }
 
+//Ready state values
+
 //HTTP Status
 //200: "OK"
 //403: "Forbidden"
