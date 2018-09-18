@@ -7,6 +7,7 @@ button.addEventListener('click', renderText);
 function renderText(){
   //Create XHR Object
    const xhr = new XMLHttpRequest();
+   const text = document.querySelector('#text');
   //OPEN-type, url/file, aync
   xhr.open('GET', 'text.txt', true);
 
@@ -26,7 +27,7 @@ function renderText(){
   xhr.onload = function (){
     console.log("READYSTATE ", this.readyState);
     if(this.status === 200){
-      // console.log(this.responseText);
+      text.innerHTML = this.responseText;
     }
   }
 
