@@ -16,7 +16,7 @@ function renderUser(){
   httpRequest.onload = function(){
     if(this.status === 200){
       const user = JSON.parse(this.responseText);
-      console.log(user.name);
+      const output = '';
     }
   }
   httpRequest.send();
