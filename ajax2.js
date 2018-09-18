@@ -12,6 +12,6 @@ function renderUser(){
   const httpRequest = new XMLHttpRequest();
   //open httpRequest
   httpRequest.open('GET', 'user.json', true);
-  //check status
+  //use onload function
   
 }
