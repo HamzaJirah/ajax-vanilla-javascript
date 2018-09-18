@@ -14,7 +14,7 @@ function renderText(){
 
   //onprogress-OPTIONAL-used for loaders
   xhr.onprogress = function(){
-    
+    console.log("READYSTATE ", this.readyState);
   }
 
   //USING ONLOAD FUNCTION
