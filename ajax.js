@@ -16,7 +16,7 @@ function renderText(){
     }
   }
 
-  //send request
+  //Sends request
   xhr.send();
 }
 
