@@ -9,7 +9,7 @@ function renderText(){
    const xhr = new XMLHttpRequest();
    const text = document.querySelector('#text');
   //OPEN-type, url/file, aync
-  xhr.open('GET', 'text.txt', true);
+  xhr.open('GET', 'text2.txt', true);
 
   console.log("READYSTATE ", xhr.readyState);
 
