@@ -15,7 +15,7 @@ function renderUser(){
   //use onload function
   httpRequest.onload = function(){
     if(this.status === 200){
-      console.log(this.responseText);
+      const user = JSON.parse(this.responseText);
     }
   }
   httpRequest.send();
