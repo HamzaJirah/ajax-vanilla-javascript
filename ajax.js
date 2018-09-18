@@ -13,11 +13,11 @@ function renderText(){
   console.log("READYSTATE ", xhr.readyState);
 
   //USING ONLOAD FUNCTION
-  // xhr.onload = function (){
-  //   if(this.status === 200){
-  //     // console.log(this.responseText);
-  //   }
-  // }
+  xhr.onload = function (){
+    if(this.status === 200){
+      // console.log(this.responseText);
+    }
+  }
 
   //USING OnReadyStateChange FUNCTION
   // xhr.onreadystatechange = function(){
@@ -26,7 +26,7 @@ function renderText(){
   //     // console.log(this.responseText);
   //   }
   // }
-  
+
   //Sends request
   xhr.send();
 }
