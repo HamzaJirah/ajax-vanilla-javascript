@@ -4,7 +4,7 @@ const button2 = document.querySelector('#button2');
 
 //addEventListener
 button1.addEventListener('click', renderUser)
-button2.addEventListener('click', renderUsers)
+// button2.addEventListener('click', renderUsers)
 
 //creeate user function
 function renderUser(){
@@ -18,4 +18,5 @@ function renderUser(){
       console.log(this.responseText);
     }
   }
+  httpRequest.send();
 }
