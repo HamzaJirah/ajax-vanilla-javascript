@@ -17,7 +17,8 @@ function renderText(){
   //   }
   // }
 
-  //USING OnReadyStageChange FUNCTION
+  //USING OnReadyStateChange FUNCTION
+  xhr.onreadystatechange
 
 
   //Sends request
