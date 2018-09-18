@@ -23,6 +23,7 @@ function renderUser(){
         '<li>Name: '+ this.email + '</li>'+
         '<li>Email '+ this.email + '</li>'+
         '</ul>';
+      document.querySelector('#user').innerHTML = output;
     }
   }
   httpRequest.send();
