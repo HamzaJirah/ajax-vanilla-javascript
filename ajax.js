@@ -18,7 +18,9 @@ function renderText(){
   // }
 
   //USING OnReadyStateChange FUNCTION
-  xhr.onreadystatechange
+  xhr.onreadystatechange = function(){
+    
+  }
 
 
   //Sends request
