@@ -16,12 +16,12 @@ function renderUser(){
   httpRequest.onload = function(){
     if(this.status === 200){
       const user = JSON.parse(this.responseText);
-      const output = '';
+      let output = '';
 
       output += '<ul> '+
-        '<li>ID: '+ this.id + '</li>'+
-        '<li>Name: '+ this.email + '</li>'+
-        '<li>Email '+ this.email + '</li>'+
+        '<li>ID: '+ user.id + '</li>'+
+        '<li>Name: '+ user.name + '</li>'+
+        '<li>Email '+ user.email + '</li>'+
         '</ul>';
       document.querySelector('#user').innerHTML = output;
     }
