@@ -18,11 +18,11 @@ function renderUser(){
       const user = JSON.parse(this.responseText);
       let output = '';
 
-      output += '<ul> '+
+      output += '<ol type="I"> '+
         '<li>ID: '+ user.id + '</li>'+
         '<li>Name: '+ user.name + '</li>'+
         '<li>Email '+ user.email + '</li>'+
-        '</ul>';
+        '</ol>';
       document.querySelector('#user').innerHTML = output;
     }
   }
