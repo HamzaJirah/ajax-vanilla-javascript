@@ -11,7 +11,7 @@ function renderUser(){
   //create httpRequest Object
   const httpRequest = new XMLHttpRequest();
   //open httpRequest
-  httpRequest.open('GET', 'user.json', true);
+  httpRequest.open('GET', 'user1.json', true);
   //use onload function
   httpRequest.onload = function(){
     if(this.status === 200){
@@ -26,7 +26,7 @@ function renderUser(){
       document.querySelector('#user').innerHTML = output;
     }
     else if(this.status === 404){
-      document.querySelector('#errorOne').innerHTML = 'Not found';
+      document.querySelector('#user').innerHTML = 'Not found';
     }
   }
   httpRequest.send();
