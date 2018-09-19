@@ -26,7 +26,7 @@ function renderUser(){
       document.querySelector('#user').innerHTML = output;
     }
     else if(this.status === 404){
-      
+      document.querySelector('#errorOne').innerHTML = 'Not found';
     }
   }
   httpRequest.send();
