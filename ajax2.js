@@ -25,6 +25,9 @@ function renderUser(){
         '</ol>';
       document.querySelector('#user').innerHTML = output;
     }
+    else if(this.status === 404){
+      
+    }
   }
   httpRequest.send();
 }
