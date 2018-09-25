@@ -19,7 +19,7 @@ function renderUser(){
       const user = JSON.parse(this.responseText);
       let output = '';
 
-      output += '<ol type="I"> '+
+      output += '<ol type="a"> '+
         '<li>ID: '+ user.id + '</li>'+
         '<li>Name: '+ user.name + '</li>'+
         '<li>Email '+ user.email + '</li>'+
