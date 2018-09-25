@@ -42,7 +42,7 @@ function renderUsers(){
   //use onload function
   httpRequest.onload = function(){
     if(this.status === 200){
-      const user = JSON.parse(this.responseText);
+      const users = JSON.parse(this.responseText);
       let output = '';
 
       output += '<ol type="I"> '+
