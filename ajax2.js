@@ -54,10 +54,10 @@ function renderUsers(){
         '</ol>';
       }
 
-      document.querySelector('#user').innerHTML = output;
+      document.querySelector('#users').innerHTML = output;
     }
     else if(this.status === 404){
-      document.querySelector('#user').innerHTML = 'Not found';
+      document.querySelector('#users').innerHTML = 'Not found';
     }
   }
   httpRequest.send();
