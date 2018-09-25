@@ -33,8 +33,8 @@ button2.addEventListener('click', renderUsers)
 }*/
 
 //USER2 HTTP REQUEST
-//creeate user function
-function renderUser(){
+//creeate renderusers function to serve users.json
+function renderUsers(){
   //create httpRequest Object
   const httpRequest = new XMLHttpRequest();
   //open httpRequest
