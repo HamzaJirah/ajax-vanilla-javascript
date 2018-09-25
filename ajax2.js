@@ -31,3 +31,5 @@ function renderUser(){
   }
   httpRequest.send();
 }
+
+//USER2 HTTP REQUEST
