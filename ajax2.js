@@ -47,11 +47,11 @@ function renderUsers(){
 
       for(var i in users){
         //loop through the users.json array
-        output += '<ol type="I"> '+
+        output += '<ul type="square"> '+
         '<li>ID: '+ users.id + '</li>'+
         '<li>Name: '+ users.name + '</li>'+
         '<li>Email '+ users.email + '</li>'+
-        '</ol>';
+        '</ul>';
       }
 
       document.querySelector('#users').innerHTML = output;
