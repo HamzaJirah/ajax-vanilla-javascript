@@ -44,7 +44,7 @@ function renderUsers(){
     if(this.status === 200){
       const users = JSON.parse(this.responseText);
       let output = '';
-
+      //loop through the users.json array
       output += '<ol type="I"> '+
         '<li>ID: '+ user.id + '</li>'+
         '<li>Name: '+ user.name + '</li>'+
