@@ -11,7 +11,7 @@ function renderUser(){
   //create httpRequest Object
   const httpRequest = new XMLHttpRequest();
   //open httpRequest
-  httpRequest.open('GET', 'user1.json', true);
+  httpRequest.open('GET', 'user.json', true);
   //use onload function
   httpRequest.onload = function(){
     if(this.status === 200){
