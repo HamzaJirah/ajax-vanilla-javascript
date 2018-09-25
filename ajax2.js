@@ -6,8 +6,9 @@ const button2 = document.querySelector('#button2');
 // button1.addEventListener('click', renderUser)
 button2.addEventListener('click', renderUsers)
 
+//USER1 HTTP OBJECT REQUEST
 //creeate user function
-/*function renderUser(){
+function renderUser(){
   //create httpRequest Object
   const httpRequest = new XMLHttpRequest();
   //open httpRequest
@@ -30,7 +31,7 @@ button2.addEventListener('click', renderUsers)
     }
   }
   httpRequest.send();
-}*/
+}
 
 //USER2 HTTP REQUEST
 //creeate renderusers function to serve users.json
