@@ -49,9 +49,9 @@ function renderUsers(){
       for(var i in users){
         //loop through the users.json array
         output += '<ul type="square"> '+
-        '<li>ID: '+ users.id + '</li>'+
-        '<li>Name: '+ users.name + '</li>'+
-        '<li>Email '+ users.email + '</li>'+
+        '<li>ID: '+ users[i].id + '</li>'+
+        '<li>Name: '+ users[i].name + '</li>'+
+        '<li>Email '+ users[i].email + '</li>'+
         '</ul>';
       }
 
