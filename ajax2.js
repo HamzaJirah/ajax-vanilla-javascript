@@ -46,14 +46,14 @@ function renderUsers(){
       let output = '';
 
       for(var i in users){
-        
-      }
-      //loop through the users.json array
-      output += '<ol type="I"> '+
+        //loop through the users.json array
+        output += '<ol type="I"> '+
         '<li>ID: '+ user.id + '</li>'+
         '<li>Name: '+ user.name + '</li>'+
         '<li>Email '+ user.email + '</li>'+
         '</ol>';
+      }
+
       document.querySelector('#user').innerHTML = output;
     }
     else if(this.status === 404){
