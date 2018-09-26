@@ -6,3 +6,6 @@ const users = document.querySelector('#users');
 button.addEventListener('click', renderUsers);
 
 //write renderUsers function
+function renderUsers(){
+  
+}
