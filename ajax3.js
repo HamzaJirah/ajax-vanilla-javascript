@@ -8,13 +8,13 @@ button.addEventListener('click', renderUsers);
 //write renderUsers function
 function renderUsers(){
   const htppRequest = new XMLHttpRequest();
-  htppRequest.open ('GET', 'https://api.github.com/users', true);
+  httpRequest.open ('GET', 'https://api.github.com/users', true);
   //create onload function
-  htppRequest.onload = function (){
+  httpRequest.onload = function (){
     if(this.status === 200){
       var users = JSON.parse(this.responseText);
       
-      const output = '';
+      var output = '';
       for(var i in users){
         output +=
         '<div class="user"' +
@@ -28,5 +28,5 @@ function renderUsers(){
       displayUsers.innerHTML = output;
     }
   }
-  htppRequest.send();
+  httpRequest.send();
 }
