@@ -11,6 +11,8 @@ function renderUsers(){
   htppRequest.open ('GET', 'https://api.github.com/users', true);
   //create onload function
   htppRequest.onload = function (){
-    
+    if(this.status === 200){
+      var users = JSON.parse(this.responseText);
+    }
   }
 }
