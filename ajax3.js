@@ -13,6 +13,7 @@ function renderUsers(){
   htppRequest.onload = function (){
     if(this.status === 200){
       var users = JSON.parse(this.responseText);
+      console.log(users);
     }
   }
 }
