@@ -1,4 +1,5 @@
 const button = document.querySelector('#button');
+const button = document.querySelector('#getForm');
 
 button.addEventListener('click', requestName);
 
