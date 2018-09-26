@@ -9,4 +9,5 @@ function requestName(){
   httpRequest.onload = function(){
     console.log(this.responseText);
   }
+  httpRequest.send();
 }
