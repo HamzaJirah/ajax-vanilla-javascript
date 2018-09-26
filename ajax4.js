@@ -15,7 +15,8 @@ form.addEventListener('submit', getForm);
 }*/
 
 //GETFORM FUNCTION
-function getForm(){
+function getForm(e){
+  e.preventDefault();
   let httpRequest = new XMLHttpRequest();
   httpRequest.open('GET', 'process.php', true);
 
