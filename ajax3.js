@@ -10,5 +10,7 @@ function renderUsers(){
   const htppRequest = new XMLHttpRequest();
   htppRequest.open ('GET', 'https://api.github.com/users', true);
   //create onload function
-  
+  htppRequest.onload = function (){
+    
+  }
 }
