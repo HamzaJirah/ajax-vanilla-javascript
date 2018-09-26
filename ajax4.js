@@ -1,7 +1,8 @@
 const button = document.querySelector('#button');
-const button = document.querySelector('#getForm');
+const form = document.querySelector('#getForm');
 
 button.addEventListener('click', requestName);
+form.addEventListener('click', getForm);
 
 function requestName(){
   let httpRequest = new XMLHttpRequest();
