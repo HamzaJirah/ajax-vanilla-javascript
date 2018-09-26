@@ -1,7 +1,7 @@
-const button = document.querySelector('#button');
+// const button = document.querySelector('#button');
 const form = document.querySelector('#getForm');
 
-button.addEventListener('click', requestName);
+// button.addEventListener('click', requestName);
 form.addEventListener('submit', getForm);
 
 function requestName(){
