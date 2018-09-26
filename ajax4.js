@@ -17,7 +17,7 @@ form.addEventListener('submit', getForm);
 //GETFORM FUNCTION
 function getForm(e){
   e.preventDefault();
-  const name = document.querySelector('#name1');
+  const name = document.querySelector('#name1').value;
   let httpRequest = new XMLHttpRequest();
   httpRequest.open('GET', 'process.php?name=Jirah', true);
 
