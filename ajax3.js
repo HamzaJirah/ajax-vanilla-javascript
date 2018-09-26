@@ -9,4 +9,6 @@ button.addEventListener('click', renderUsers);
 function renderUsers(){
   const htppRequest = new XMLHttpRequest();
   htppRequest.open ('GET', 'https://api.github.com/users', true);
+  //create onload function
+  
 }
