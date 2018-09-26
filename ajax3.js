@@ -16,4 +16,5 @@ function renderUsers(){
       console.log(users);
     }
   }
+  htppRequest.send();
 }
