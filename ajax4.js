@@ -7,6 +7,6 @@ function requestName(){
   httpRequest.open('GET', 'process.php', true);
 
   httpRequest.onload = function(){
-
+    console.log(this.responseText);
   }
 }
