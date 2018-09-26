@@ -5,4 +5,8 @@ button.addEventListener('click', requestName);
 function requestName(){
   let httpRequest = new XMLHttpRequest();
   httpRequest.open('GET', 'process.php', true);
+
+  httpRequest.onload = function(){
+
+  }
 }
