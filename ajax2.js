@@ -39,7 +39,7 @@ function renderUsers(){
   //create httpRequest Object
   const httpRequest = new XMLHttpRequest();
   //open httpRequest
-  httpRequest.open('GET', 'user.json', true);
+  httpRequest.open('GET', 'users.json', true);
   //use onload function
   httpRequest.onload = function(){
     if(this.status === 200){
