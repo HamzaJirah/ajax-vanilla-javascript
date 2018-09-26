@@ -25,6 +25,7 @@ function renderUsers(){
         '</ul>' +
         '</div>';
       }
+      displayUsers.innerHTML = output;
     }
   }
   htppRequest.send();
