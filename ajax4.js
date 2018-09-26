@@ -19,7 +19,7 @@ function getForm(e){
   e.preventDefault();
   const name = document.querySelector('#name1').value;
   let httpRequest = new XMLHttpRequest();
-  httpRequest.open('GET', 'process.php?name=Jirah', true);
+  httpRequest.open('GET', 'process.php?name=' +name, true);
 
   httpRequest.onload = function(){
     console.log(this.responseText);
